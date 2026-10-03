@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+    background-color: #020303;
+}
+
+.header {
+    padding: 30px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-block {
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.logo-block2 {
+    margin-right: 282px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.menu ul li:nth-child(3) {
+    margin-right: 54px;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-skip-ink: none;
+}
+
+.menu ul li a:hover {
+    font-size: 16px;
+    color: rgb(255, 175, 24);
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.first-section-inf {
+    display: inline-block;
+    max-width: 564px;
+    margin-right: 27px;
+    vertical-align: top;
+}
+
+.first-section-image {
+    padding-top: 32px;
+    display: inline-block;
+    max-width: 265px;
+}
+
+.first-section {
+    font-size: 0;
+    padding: 133px 0;
+    margin-bottom: 120px;
+}
+
+.first-section-inf h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    text-align: left;
+    margin-bottom: 74px;
+}
+
+.title-highlited {
+    color: #F6AE47;
+}
+
+.characteristic {
+    display: inline-block;
+}
+
+.characteristic:first-child {
+    margin-right: 100px;
+}
+
+.characteristic img {
+    margin-right: 11px;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.characteristic span {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.dop-inf {
+    margin-bottom: 74px;
+}
+
+.button {
+    background-color: #F6AE47;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.choice-button {
+    padding: 22px;
+    width: 224px;
+
+}
+.button:hover {
+    box-shadow: 0 15px 35px rgba(255, 175, 24, 0.4);
+}
+
+.choose-dish {
+    padding: 17px;
+    width: 242px;
+}
+
+.title-selection {
+    margin-bottom: 48px;
+}
+
+.dish-card {
+    display: inline-block;
+    padding: 10px 20px 15px 20px;
+    margin: 12px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    max-width: 282px;
+    box-sizing: border-box;
+}
+
+.catalog {
+    margin-right: -12px;
+    margin-left: -12px;
+    font-size: 0;
+    margin-bottom: 232px;
+}
+
+.title-selection {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+}
+
+.name-dish {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.description-dish {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.dish-card:nth-child(-n+2) .description-dish,
+.dish-card:nth-child(7) .description-dish {
+    margin-bottom: 15px;
+}
+
+.dish-card:nth-child(4) .description-dish {
+    margin-bottom: 51px;
+}
+
+.dish-card img {
+    margin-bottom: 30px;
+    margin-left: 21px;
+}
+
+.dish-card:hover {
+    box-shadow: 0 0 0 5px #F5A741, 0 0 30px white;
+}
+
+.cook {
+    font-size: 0;
+    margin-bottom: 67px;
+}
+
+.cook-info {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 367px;
+    margin-right: 65px;
+}
+
+.cook-image {
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 768px;
+}
+
+
+.title-cook {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    text-align: left;
+    margin-bottom: 60px;
+    vertical-align: top;
+}
+
+.cook-main-info {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 107px;
+    max-width: 346px;
+}
+
+.more-detailed {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.icon-block {
+    margin-left: -40px;
+}
+
+.icon-link {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 40px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+}
+
+.icon-link:hover {
+    box-shadow: 0 0 10px white;
+}
+
+.icon-link-onigiri {
+    padding: 13px 7px;
+}
+
+.icon-link-sushi {
+    padding: 11px 9px 10px 12px;
+}
+
+.icon-link-tuna {
+    padding: 14px 7px;
+}
+
+.rights-message {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 390px;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    text-align: left;
+}
+.footer{
+    padding: 30px 0;
+}
+
+
